@@ -33,8 +33,8 @@ function predictOnLoad() {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('final_model_kaggle_version1/model.json');
-	$("#selected-image").attr("src", "assets/samplepic.jpg");
+	model = await tf.loadModel('sfaux/Skin-Cancer-Web-App/final_model_kaggle_version1/model.json');
+	$("#selected-image").attr("src", "sfaux/Skin-Cancer-Web-App/assets/samplepic.jpg");
 	
 	// Hide the model loading spinner
 	// This line of html gets hidden:
