@@ -46,7 +46,6 @@ let model;
 (async function () {
 	
 	model = await tf.loadModel('model.json');
-	$("#selected-image").attr("src", "http://skin.test.woza.work/assets/samplepic.jpg")
 	
 	
 	
